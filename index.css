@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 200px;
+}
+
+.title {
+    box-sizing: border-box;
+    font-family: Garamond, serif;
+    text-align: right;
+    height: 700px;
+    border: 0.1px solid black;
+    box-shadow: 0px 1px 2px black;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+.title h1 {
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    weight: bold;
+    margin-bottom: 2px;
+}
+
+.title p {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.prelims {
+    box-sizing: border-box;
+    font-family: Garamond, serif;
+    font-size: 10px;
+    height: 700px;
+    border: 0.1px solid black;
+    box-shadow: 0px 1px 2px black;
+    padding: 25px;
+    margin-bottom: 15px
+}
+
+.front-matter {
+    font-family: Garamond, serif;
+    font-size: 11px;
+}
+
+.contents {
+    font-family: Garamond, serif;
+    font-size: 18px;
+    text-align: left;
+    line-height: 2;
+    padding-left: 850px;
+}
+
+.contents h2 {
+    font-size: 25px;
+}
+
+.contents p {
+    padding-left: 15px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-family: Garamond, serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    border: 0.1px solid black;
+    box-shadow: 0px 1px 2px black;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+.research {
+    font-family: Garamond, serif;
+    list-style-type: none;
+}
+
+.proposal {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: Garamond, serif;
+    height: 700px;
+    border: 0.1px solid black;
+    box-shadow: 0px 1px 2px black;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+.heading {
+    position:absolute;
+    top:25px;
+}
+.heading h2 {
+    margin-top: 0;
+    letter-spacing: 0.05em;
+}
+
+.proposal-text {
+    position: absolute;
+    top: 100px;
+    height: 600px;
+    font-size: 18px;
+    column-count: 2;
+    column-gap: 20px;
+    vertical-align: top;
+    padding: 0px 35px;
+    margin-top: 0;
+}
+
+.proposal-text p {
+    margin-top: 0;
+}
