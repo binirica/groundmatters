@@ -14,6 +14,45 @@ pre {
     margin-bottom: 100px;
 }
 
+.micro-ct {
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.micro-ct img {
+    display: block;
+    width: auto;
+    height: 200px;
+    cursor: pointer;
+}
+
+.composite-slice {
+    display: none;
+    gap: 10px;
+}
+
+.composite-slice img {
+    width: 600px;
+    height: auto;
+}
+
+.composite-slice.active {
+  display: flex;
+  justify-content: center;
+}
+
+.composite-slice.pinned {
+  display: flex;
+  justify-content: center;
+}
+
+.sections {
+  min-height: 700px; 
+}
+
+
 .title {
     display: flex;
     flex-direction: column;
@@ -22,8 +61,6 @@ pre {
     font-family: Garamond, serif;
     text-align: right;
     height: 700px;
-    border: 0.1px solid black;
-    box-shadow: 0px 1px 2px black;
     padding: 25px;
     margin-bottom: 15px;
 }
@@ -45,8 +82,6 @@ pre {
     font-family: Garamond, serif;
     font-size: 10px;
     height: 700px;
-    border: 0.1px solid black;
-    box-shadow: 0px 1px 2px black;
     padding: 25px;
     margin-bottom: 15px
 }
